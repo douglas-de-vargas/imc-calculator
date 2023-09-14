@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 218, 218);
+  height: 100vh;
+  text-align: center;
+}
+
+.app {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.app h1 {
+  font-size: 2.3rem;
+}
+
+.app span {
+  margin-bottom: 15px;
+  display: block;
+}
+
+.area-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.app input {
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1rem;
+  border: none;
+  padding: 5px 10px;
+  background: #000000a6;
+  color: rgb(255, 255, 255);
+}
+
+.area-input input::placeholder {
+  color: rgb(255, 127, 249);
+}
+
+.app button {
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1.2rem;
+  border: none;
+  padding: 5px;
+  background: #cccccc50;
+  color: rgb(0, 0, 0);
+}
+
+.app h2 {
+  margin-top: 15px;
+  font-size: 1rem;
+}

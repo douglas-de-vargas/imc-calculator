@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import './styles.css'
 
 function App() {
@@ -21,9 +22,19 @@ function App() {
     }
   }
 
+  const inIcon = { color: 'blue' }
+
   return (
     <div className="app">
       <h1>Calculadora IMC</h1>
+      <div id="icons">
+        <a href="https://github.com/S1NS3RO/Calculadora-imc" target="_blank">
+          <BsGithub />
+        </a>
+        <a href="https://www.linkedin.com/in/douglas-leandro-a517b2288" target="_blank">
+          <BsLinkedin style={inIcon} />
+        </a>
+      </div>
       <span>Vamos calcular seu imc</span>
       <div className="area-input">
         <input

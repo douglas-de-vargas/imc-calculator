@@ -1,8 +1,9 @@
-# React + Vite
+# Calculadora de IMC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* O usuário pode inserir os dados de altura e peso
+* O sistema calcula o IMC e informa o resultado em tela
 
-Currently, two official plugins are available:
+  Tecnologias utilizadas: Vite, ReactJs
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  Imagem exemplo
+<img src='/demo.jpg'/>
